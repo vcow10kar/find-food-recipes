@@ -1,2 +1,2 @@
 # suggest-recipes
-An recipe search website implemented using ReactJs.
+A recipe search website implemented using ReactJs.
