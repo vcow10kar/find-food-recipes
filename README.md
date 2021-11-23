@@ -1,2 +1,2 @@
-# e-commerce-site-frontend
-An e-commerce website implemented using ReactJs.
+# suggest-recipes
+An recipe search website implemented using ReactJs.
