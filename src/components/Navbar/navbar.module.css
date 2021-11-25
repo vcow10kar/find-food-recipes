@@ -1,0 +1,9 @@
+.navbar {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+    background-color: #66BB6A;
+    color: white;
+    z-index: 3;
+}
