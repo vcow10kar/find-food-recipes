@@ -1,4 +1,4 @@
-import { Button, ListItem } from "@mui/material";
+import { Button } from "@mui/material";
 import styles from './recipeCard.module.css';
 
 function RecipeCard({data}) {

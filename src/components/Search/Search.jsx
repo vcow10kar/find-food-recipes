@@ -8,6 +8,8 @@ function Search() {
     const [recipes, setRecipes] = useState([]);
     const [error, setError] = useState(null);
 
+    console.log(process.env.REACT_APP_BASE_URL);
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -19,7 +21,11 @@ function Search() {
 
         axios({
             url: `${process.env.REACT_APP_BASE_URL}/search.php?s=${name}`,
-            method: 'get'
+            method: 'get',
+            // headers: {
+            //     "Access-Control-Allow-Origin": "*",
+            //     "Content-Type": "application/json"
+            // }
         })
             .then((res) => {
 
